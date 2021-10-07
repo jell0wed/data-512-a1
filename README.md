@@ -36,6 +36,10 @@ pageview_mobile_views   num_views
 ## Analysis
 The analysis itself is included within the end section of the Jupyter notebook.
 
+## Special considerations
+- There was an overlap between the `Pagecounts` and `Pageviews` API around 2014-10 through 2016-10. Hence some visits might have been double counted;
+- The page counts might include bots & web crawler and is not necessarily only organic traffic.
+
 ## Folder structure
 ```
 ./
